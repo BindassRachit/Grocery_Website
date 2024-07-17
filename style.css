@@ -231,6 +231,10 @@ p{
 }
 
 /* section 5 */
+.Five{
+    width: 100%;
+    height: 1200px;
+}
 .all-in-one{
     width: 140px;
     height: 350px;
@@ -254,4 +258,73 @@ p{
 }
 .aio-heading h4{
     font-size: 1.7cap;
+}
+
+/* footer */
+.categories{
+    font-size: 3cap;
+    margin-bottom: 20px;
+    padding-left: 1%;
+}
+.categories h3{
+    font-weight: 700;
+}
+.footer-unorder {
+    display: flex;
+    flex-wrap: wrap;   
+}
+.social-media{
+    margin-top: 30px;
+    margin-left: 60px;  
+}
+.social-media a{
+    margin-right: 30px;
+    font-size: 2cap;
+}
+
+li{
+    width: 19%;
+    list-style: none;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-weight: 500;
+}
+.footer-unorder a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer-section2{
+    display: flex;
+    gap: 100px;
+}
+.footer-down-list li{
+    width: 300px;
+}
+
+.footer-grocery-logo{
+    padding-left: 80px;
+}
+.footer-download-store ul{
+    padding: 0px;
+    margin-top: 20px;
+}
+.footer-download-store a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-download-store li{
+    display: flex;
+    width: 180px;
+    align-items: center;
+    gap: 10px;
+    height: 35px;
+    border: solid 1px black;
+    margin-bottom: 20px;
+}
+.footer-download-store img{  
+    height: 20px;
+    display: flex;
+    
 }
