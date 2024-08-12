@@ -24,6 +24,7 @@
     padding-left: 3%;
     color: rgb(251,220,62);
 }
+
 .select-location{
     width: 14%;
     margin: 0px;
@@ -93,6 +94,12 @@
 p{
     margin: 0px;
 }
+
+/* Image Section  */
+.image img{
+    width: 100%;
+}
+
 /* Catagaries  */
 .Product-Header {
     display: flex;
